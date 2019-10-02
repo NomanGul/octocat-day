@@ -1,22 +1,61 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+
+.container {
+  height: 100vh;
+  background-color: #f0f2f5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header_container {
+  margin-top: 20vh;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.header {
+  font-weight: bold;
+  font-family: 'Fira Code', 'Courier New', Courier, monospace;
+  text-align: center;
+  background: linear-gradient(to right, #485563, #29323c);
+  background-clip: initial;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.sub_header {
+  text-align: center;
+}
+
+.search {
+  max-width: 800px;
+  padding: 4vw;
+  margin: 0px auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.column {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-basis: 100%;
+  flex: 1;
 }
 
-.App-link {
-  color: #09d3ac;
+.response__container {
+  align-items: center;
+}
+
+.paragraph {
+  font-size: 2.6vh;
+}
+
+.date {
+  font-size: 4vh;
 }
