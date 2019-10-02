@@ -59,24 +59,33 @@ const App = () => {
       <div className="row column">
         <Title className="header_container">
           <span className="header">Octocat Day</span>
-          <span role="img" aria-label="man technologist">
+          <span role="img" aria-label="man_technologist">
             {" "}
             👨‍💻
           </span>
         </Title>
-        <Text className="sub_header">(GitHub user join date 😃)</Text>
+        <Text className="sub_header">
+          (GitHub user join date
+          <span role="img" aria-label="smiley">
+            {" "}
+            😃
+          </span>
+          )
+        </Text>
 
-        <Search
-          type="text"
-          addonBefore="@"
-          onChange={e => {
-            setUsername(e.target.value)
-          }}
-          value={username}
-          placeholder="GitHub handle"
-          onSearch={getJoiningDate}
-          className="search"
-        />
+        <div className="search_container">
+          <Search
+            type="text"
+            addonBefore="@"
+            onChange={e => {
+              setUsername(e.target.value)
+            }}
+            value={username}
+            placeholder="GitHub handle"
+            onSearch={getJoiningDate}
+            className="search"
+          />
+        </div>
       </div>
 
       <div className="response__container row column">
