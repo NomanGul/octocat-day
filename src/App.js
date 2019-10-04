@@ -106,6 +106,7 @@ const App = () => {
                 style={{ marginRight: 10 }}
                 href={`http://www.facebook.com/sharer.php?u=http://octocatday.com`}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <svg
                   style={{ marginTop: 20 }}
