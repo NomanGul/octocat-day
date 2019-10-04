@@ -105,7 +105,7 @@ const App = () => {
               <a
                 style={{ marginRight: 10 }}
                 href={`http://www.facebook.com/sharer.php?u=http://octocatday.com`}
-                target="popup"
+                target="_blank"
               >
                 <svg
                   style={{ marginTop: 20 }}
@@ -124,7 +124,7 @@ const App = () => {
               <a
                 style={{ marginLeft: 5 }}
                 href={`https://twitter.com/intent/tweet?text=I%20joined%20GitHub%20on%20${date}%20🎉%0aFind%20yours%20at:%20https://www.octocatday.com%20😎`}
-                target="popup"
+                target="_blank"
               >
                 <svg
                   style={{ marginTop: 5 }}
