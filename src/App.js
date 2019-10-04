@@ -108,13 +108,6 @@ const App = () => {
                 target="popup"
               >
                 <svg
-                  onClick={() =>
-                    window.open(
-                      `http://www.facebook.com/sharer.php?u=http://octocatday.com`,
-                      "Share on Facebook",
-                      "width=400,height=600"
-                    )
-                  }
                   style={{ marginTop: 20 }}
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
@@ -134,13 +127,6 @@ const App = () => {
                 target="popup"
               >
                 <svg
-                  onClick={() =>
-                    window.open(
-                      `https://twitter.com/intent/tweet?text=I%20joined%20GitHub%20on%20${date}%20🎉%0aFind%20yours%20at:%20https://www.octocatday.com%20😎`,
-                      "Share on Twitter",
-                      "width=400,height=600"
-                    )
-                  }
                   style={{ marginTop: 5 }}
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
