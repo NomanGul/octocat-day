@@ -125,6 +125,7 @@ const App = () => {
                 style={{ marginLeft: 5 }}
                 href={`https://twitter.com/intent/tweet?text=I%20joined%20GitHub%20on%20${date}%20🎉%0aFind%20yours%20at:%20https://www.octocatday.com%20😎`}
                 target="_blank"
+                rel="noopener noreferrer"
               >
                 <svg
                   style={{ marginTop: 5 }}
