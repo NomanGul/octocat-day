@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "Mohammad-Quanit",
+      "name": "mquanit",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/32056694?v=4",
+      "profile": "https://mohammad-quanit.github.io/",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "octocat-day",
+  "projectOwner": "NomanGul",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
