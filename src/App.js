@@ -104,7 +104,7 @@ const App = () => {
             <div>
               <a
                 style={{ marginRight: 10 }}
-                href={`http://www.facebook.com/sharer.php?u=http://octocatday.com`}
+                href={`http://www.facebook.com/sharer.php?u=http://octocatday.com&quote=I%20joined%20GitHub%20on%20${date}%20%0aFind%20yours%20at%20https://www.octocatday.com`}
                 target="_blank"
                 rel="noopener noreferrer"
               >
