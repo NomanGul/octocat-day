@@ -96,9 +96,6 @@ const App = () => {
           <>
             <Paragraph className="paragraph" type="secondary">
               <img className="avatar-style" src={avatar} alt="avatar" />
-              {/* <span role="img" aria-label="Tada">
-                🎉
-              </span>{" "} */}
               {name || login} joined GitHub on
             </Paragraph>
             <Text code className="date">
