@@ -46,6 +46,10 @@ const App = () => {
     }
   }
 
+  const getProfileLink = ()=>{
+      return <a href={`https://github.com/${login}`} rel="noopener noreferrer" target="_blank" >{name || login}</a>;
+  }
+
   return (
     <div className="container">
       {!loading && date ? (
@@ -96,7 +100,7 @@ const App = () => {
               <span role="img" aria-label="Tada">
                 🎉
               </span>{" "}
-              {name || login} joined GitHub on
+              {getProfileLink()} joined GitHub on
             </Paragraph>
             <Text code className="date">
               {date}
