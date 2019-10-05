@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "NomanGul",
+      "name": "Noman Gul",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/39244918?v=4",
+      "profile": "https://dev.to/nomangul",
+      "contributions": [
+        "infra",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "octocat-day",
+  "projectOwner": "NomanGul",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
