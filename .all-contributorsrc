@@ -32,7 +32,16 @@
         "contributions": [
           "bug"
         ]
-      }
+      },
+      {
+      "login": "Mohammad-Quanit",
+      "name": "mquanit",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/32056694?v=4",
+      "profile": "https://mohammad-quanit.github.io/",
+      "contributions": [
+        "code"
+      ]
+    }
   ],
   "contributorsPerLine": 4,
   "projectName": "octocat-day",
