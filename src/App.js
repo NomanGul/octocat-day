@@ -101,7 +101,6 @@ const App = () => {
             <Paragraph className="paragraph" type="secondary">
               <img className="avatar-style" src={avatar} alt="avatar" />
               {getProfileLink()} joined GitHub on
-              {name || login} joined GitHub on
             </Paragraph>
             <Text code className="date">
               {date}
