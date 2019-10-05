@@ -69,5 +69,6 @@
 avatar-style {
   border-radius: 30px;
   width: 60px;
-  height: 620px;
+  height: 60px;
+  margin-right: 10px;
 }
