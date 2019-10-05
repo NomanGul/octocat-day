@@ -12,11 +12,20 @@
       "profile": "https://dev.to/nomangul",
       "contributions": [
         "infra",
-        "code"
+        "code"  
       ]
-    }
+    },
+    {
+      "login": "MuhaddiMu",
+      "name": "Muhammad Muhaddis",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26611847?v=4",
+      "profile": "http://Http://www.Muhaddis.Info",
+      "contributions": [
+        "code"
+       ]
+     }
   ],
-  "contributorsPerLine": 7,
+  "contributorsPerLine": 4,
   "projectName": "octocat-day",
   "projectOwner": "NomanGul",
   "repoType": "github",
