@@ -6,6 +6,43 @@
   "commit": false,
   "contributors": [
     {
+      "login": "NomanGul",
+      "name": "Noman Gul",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/39244918?v=4",
+      "profile": "https://dev.to/nomangul",
+      "contributions": [
+        "infra",
+        "code"  
+      ]
+    },
+    {
+      "login": "MuhaddiMu",
+      "name": "Muhammad Muhaddis",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26611847?v=4",
+      "profile": "http://Http://www.Muhaddis.Info",
+      "contributions": [
+        "code"
+       ]
+     },
+     {
+        "login": "ahmadawais",
+        "name": "Ahmad Awais ⚡️",
+        "avatar_url": "https://avatars1.githubusercontent.com/u/960133?v=4",
+        "profile": "https://AhmadAwais.com/",
+        "contributions": [
+          "bug"
+        ]
+      },
+      {
+      "login": "Mohammad-Quanit",
+      "name": "mquanit",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/32056694?v=4",
+      "profile": "https://mohammad-quanit.github.io/",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
       "login": "abhisheksatre",
       "name": "Abhishek Satre",
       "avatar_url": "https://avatars2.githubusercontent.com/u/7577351?v=4",
