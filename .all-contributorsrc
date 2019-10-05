@@ -41,9 +41,18 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "abhisheksatre",
+      "name": "Abhishek Satre",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/7577351?v=4",
+      "profile": "https://abhisheksatre.com",
+      "contributions": [
+        "code"
+      ]
     }
   ],
-  "contributorsPerLine": 4,
+  "contributorsPerLine": 7,
   "projectName": "octocat-day",
   "projectOwner": "NomanGul",
   "repoType": "github",
