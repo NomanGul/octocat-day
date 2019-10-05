@@ -1,0 +1,23 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "ahmadawais",
+      "name": "Ahmad Awais ⚡️",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/960133?v=4",
+      "profile": "https://AhmadAwais.com/",
+      "contributions": [
+        "bug"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "octocat-day",
+  "projectOwner": "NomanGul",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
