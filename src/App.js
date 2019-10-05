@@ -9,10 +9,11 @@ const { Search } = Input
 const { Text, Paragraph, Title } = Typography
 
 const App = () => {
-  const [{ name, date, login }, setData] = React.useState({
+  const [{ name, date, login, avatar }, setData] = React.useState({
       name: "",
       date: "",
-      login: ""
+      login: "",
+      avatar: ""
     }),
     [username, setUsername] = React.useState(""),
     [loading, setLoading] = React.useState(false),
@@ -34,7 +35,8 @@ const App = () => {
       setData({
         name: data.name,
         date: moment(data.created_at).format("DD MMMM YYYY"),
-        login: data.login
+        login: data.login,
+        avatar: data.avatar_url
       })
       setUsername("")
     } catch (error) {
@@ -97,7 +99,8 @@ const App = () => {
         {!loading && date ? (
           <>
             <Paragraph className="paragraph" type="secondary">
-              <span role="img" aria-label="Tada">
+              <img className="avatar-style" src={avatar} alt="avatar" />
+              {/* <span role="img" aria-label="Tada">
                 🎉
               </span>{" "}
               {getProfileLink()} joined GitHub on
