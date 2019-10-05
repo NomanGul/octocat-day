@@ -76,6 +76,9 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <!-- prettier-ignore -->
 <table>
   <tr>
+    <td align="center"><a href="https://dev.to/nomangul"><img src="https://avatars1.githubusercontent.com/u/39244918?v=4" width="100px;" alt="Noman Gul"/><br /><sub><b>Noman Gul</b></sub></a><br /><a href="#infra-NomanGul" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a> <a href="https://github.com/NomanGul/octocat-day/commits?author=NomanGul" title="Code">💻</a></td>
+    <td align="center"><a href="http://Http://www.Muhaddis.Info"><img src="https://avatars3.githubusercontent.com/u/26611847?v=4" width="100px;" alt="Muhammad Muhaddis"/><br /><sub><b>Muhammad Muhaddis</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/commits?author=MuhaddiMu" title="Code">💻</a></td>
+    <td align="center"><a href="https://AhmadAwais.com/"><img src="https://avatars1.githubusercontent.com/u/960133?v=4" width="100px;" alt="Ahmad Awais ⚡️"/><br /><sub><b>Ahmad Awais ⚡️</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/issues?q=author%3Aahmadawais" title="Bug reports">🐛</a></td>
     <td align="center"><a href="https://mohammad-quanit.github.io/"><img src="https://avatars3.githubusercontent.com/u/32056694?v=4" width="100px;" alt="mquanit"/><br /><sub><b>mquanit</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/commits?author=Mohammad-Quanit" title="Code">💻</a></td>
   </tr>
 </table>
