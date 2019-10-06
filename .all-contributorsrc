@@ -12,7 +12,7 @@
       "profile": "https://dev.to/nomangul",
       "contributions": [
         "infra",
-        "code"  
+        "code"
       ]
     },
     {
@@ -22,18 +22,18 @@
       "profile": "http://Http://www.Muhaddis.Info",
       "contributions": [
         "code"
-       ]
-     },
-     {
-        "login": "ahmadawais",
-        "name": "Ahmad Awais ⚡️",
-        "avatar_url": "https://avatars1.githubusercontent.com/u/960133?v=4",
-        "profile": "https://AhmadAwais.com/",
-        "contributions": [
-          "bug"
-        ]
-      },
-      {
+      ]
+    },
+    {
+      "login": "ahmadawais",
+      "name": "Ahmad Awais ⚡️",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/960133?v=4",
+      "profile": "https://AhmadAwais.com/",
+      "contributions": [
+        "bug"
+      ]
+    },
+    {
       "login": "Mohammad-Quanit",
       "name": "mquanit",
       "avatar_url": "https://avatars3.githubusercontent.com/u/32056694?v=4",
@@ -49,6 +49,15 @@
       "profile": "https://abhisheksatre.com",
       "contributions": [
         "code"
+      ]
+    },
+    {
+      "login": "Sn0wB",
+      "name": "Sn0wB",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/51188711?v=4",
+      "profile": "https://github.com/Sn0wB",
+      "contributions": [
+        "bug"
       ]
     }
   ],
