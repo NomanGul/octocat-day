@@ -43,7 +43,6 @@ const App = () => {
       })
       setUsername("")
     } catch (error) {
-      console.log("TCL: getJoiningDate -> error", error.message)
       setData({ name: "", date: "", login: "" })
       setError(true)
     } finally {
