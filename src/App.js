@@ -13,7 +13,8 @@ import Profile from "./components/Profile"
 import GithubService from "./services/Github"
 import "./App.css"
 
-const ICON_WIDTH = 30, ICON_HEIGHT = 30
+const ICON_WIDTH = 30,
+  ICON_HEIGHT = 30
 
 const App = () => {
   const [{ name, date, login, avatar }, setData] = useState({
@@ -99,12 +100,20 @@ const App = () => {
               <SocialHandler
                 href={`http://www.facebook.com/sharer.php?u=http://octocatday.com&quote=I%20joined%20GitHub%20on%20${date}%20%0aFind%20yours%20at%20https://www.octocatday.com`}
               >
-                <FaceBookIcon className="facebookIcon" width={ICON_WIDTH} height={ICON_HEIGHT}/>
+                <FaceBookIcon
+                  className="facebookIcon"
+                  width={ICON_WIDTH}
+                  height={ICON_HEIGHT}
+                />
               </SocialHandler>
               <SocialHandler
                 href={`https://twitter.com/intent/tweet?text=I%20joined%20GitHub%20on%20${date}%20🎉%0aFind%20yours%20at:%20https://www.octocatday.com%20😎`}
               >
-                <TwitterIcon className="twitterIcon" width={ICON_WIDTH} height={ICON_HEIGHT}/>
+                <TwitterIcon
+                  className="twitterIcon"
+                  width={ICON_WIDTH}
+                  height={ICON_HEIGHT}
+                />
               </SocialHandler>
             </div>
           </>
