@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useState } from "react"
 import moment from "moment"
 import Confetti from "react-confetti"
 import { Spin } from "antd"
@@ -10,50 +10,49 @@ import SearchForm from "./components/SearchForm"
 import SocialHandler from "./components/SocialHandler"
 import ErrorMessage from "./components/ErrorMessage"
 import Profile from "./components/Profile"
+import GithubService from "./services/Github"
 import "./App.css"
 
 const App = () => {
-  const [{ name, date, login, avatar }, setData] = React.useState({
-      name: "",
-      date: "",
-      login: "",
-      avatar: ""
-    }),
-    [username, setUsername] = React.useState(""),
-    [loading, setLoading] = React.useState(false),
-    [error, setError] = React.useState(false)
+  const [{ name, date, login, avatar }, setData] = useState({
+    name: "",
+    date: "",
+    login: "",
+    avatar: ""
+  })
+  const [userName, setUserName] = useState("")
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState("")
 
-  const prevUsername = usePrevious(username)
+  const prevUsername = usePrevious(userName)
 
   // for github user data fetching via github api
   const getJoiningDate = async () => {
-    if (!username || prevUsername === username) return false
+    if (!userName || prevUsername === userName) return false
     setLoading(true)
-    setError(false)
+    setError("")
     try {
-      const req = await fetch(`https://api.github.com/users/${username}`, {
-        headers: {
-          "User-Agent": "Octocat-Day"
-        }
-      })
-      if (req.status !== 200) throw Error
-      const data = await req.json()
+      const user = await GithubService.getJoiningDateOfUser(userName)
       setData({
-        name: data.name,
-        date: moment(data.created_at).format("DD MMMM YYYY"),
-        login: data.login,
-        avatar: data.avatar_url
+        name: user.name,
+        date: moment(user.created_at).format("DD MMMM YYYY"),
+        login: user.login,
+        avatar: user.avatar_url
       })
-      setUsername("")
-    } catch (error) {
+      setUserName("")
+    } catch (err) {
       setData({ name: "", date: "", login: "" })
-      setError(true)
+      /**
+       * @code err.message.split(":")[1] - Formatted message.
+       * @description: Error constructor returns response of pattern Error: ERR_MESSAGE
+       */
+      setError(err.message.split(":")[1])
     } finally {
       setLoading(false)
     }
   }
 
-  const getProfileLink = () => {
+  const renderProfileLink = () => {
     return (
       <a
         href={`https://github.com/${login}`}
@@ -75,11 +74,12 @@ const App = () => {
           numberOfPieces={300}
         />
       ) : null}
+
       <div className="row column">
         <HomeShowcase />
         <SearchForm
-          handleChange={e => setUsername(e.target.value)}
-          value={username}
+          handleChange={e => setUserName(e.target.value)}
+          value={userName}
           searchHandler={getJoiningDate}
         />
       </div>
@@ -89,7 +89,7 @@ const App = () => {
         {!loading && date ? (
           <>
             <Profile
-              getProfileLink={getProfileLink}
+              renderProfileLink={renderProfileLink}
               avatar={avatar}
               date={date}
             />
@@ -107,7 +107,7 @@ const App = () => {
             </div>
           </>
         ) : error ? (
-          <ErrorMessage errMessage="User not Found" />
+          <ErrorMessage errMessage={error} />
         ) : null}
       </div>
     </div>
