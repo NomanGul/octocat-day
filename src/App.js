@@ -4,6 +4,7 @@ import moment from "moment"
 import "./App.css"
 import Confetti from "react-confetti"
 import { width, height } from "./utils/Dimensions"
+import { usePrevious } from "./utils/usePrevious"
 
 const { Search } = Input
 const { Text, Paragraph, Title } = Typography
@@ -19,9 +20,11 @@ const App = () => {
     [loading, setLoading] = React.useState(false),
     [error, setError] = React.useState(false)
 
+  const prevUsername = usePrevious(username)
+
   // for github user data fetching via github api
   const getJoiningDate = async () => {
-    if (!username) return false
+    if (!username || prevUsername === username) return false
     setLoading(true)
     setError(false)
     try {
@@ -48,8 +51,16 @@ const App = () => {
     }
   }
 
-  const getProfileLink = ()=>{
-      return <a href={`https://github.com/${login}`} rel="noopener noreferrer" target="_blank" >{name || login}</a>;
+  const getProfileLink = () => {
+    return (
+      <a
+        href={`https://github.com/${login}`}
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        {name || login}
+      </a>
+    )
   }
 
   return (
