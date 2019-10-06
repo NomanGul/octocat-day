@@ -33,7 +33,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
-Please don't hesitate to open an [issue](https://github.com/NomanGul/octocat-day/issues) or [pull request](https://github.com/NomanGul/octocat-day/pulls). You can also send me a message on [Twitter](https://twitter.com/NomanGulKhan). Contributions of any kind welcome!
+Please don't hesitate to open an [issue](https://github.com/NomanGul/octocat-day/issues) or [pull request](https://github.com/NomanGul/octocat-day/pulls). You can also send me a message on [Twitter](https://twitter.com/NomanGulKhan). Contributions of any kind are welcomed!
 
 ## License
 
