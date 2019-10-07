@@ -1,17 +1,17 @@
-import React, { useState } from "react"
-import moment from "moment"
-import Confetti from "react-confetti"
-import { Spin } from "antd"
-import { width, height } from "./utils/Dimensions"
-import { usePrevious } from "./utils/usePrevious"
-import { FaceBookIcon, TwitterIcon } from "./assets/svgs"
-import HomeShowcase from "./components/HomeShocase"
-import SearchForm from "./components/SearchForm"
-import SocialHandler from "./components/SocialHandler"
-import ErrorMessage from "./components/ErrorMessage"
-import Profile from "./components/Profile"
-import GithubService from "./services/Github"
-import "./App.css"
+import React, { useState } from "react";
+import moment from "moment";
+import Confetti from "react-confetti";
+import { Spin } from "antd";
+import { width, height } from "./utils/Dimensions";
+import { usePrevious } from "./utils/usePrevious";
+import { FaceBookIcon, TwitterIcon, LinkedinIcon } from "./assets/svgs";
+import HomeShowcase from "./components/HomeShocase";
+import SearchForm from "./components/SearchForm";
+import SocialHandler from "./components/SocialHandler";
+import ErrorMessage from "./components/ErrorMessage";
+import Profile from "./components/Profile";
+import GithubService from "./services/Github";
+import "./App.css";
 
 const App = () => {
   const [{ name, date, login, avatar }, setData] = useState({
@@ -19,38 +19,38 @@ const App = () => {
     date: "",
     login: "",
     avatar: ""
-  })
-  const [userName, setUserName] = useState("")
-  const [loading, setLoading] = useState(false)
-  const [error, setError] = useState("")
+  });
+  const [userName, setUserName] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState("");
 
-  const prevUsername = usePrevious(userName)
+  const prevUsername = usePrevious(userName);
 
   // for github user data fetching via github api
   const getJoiningDate = async () => {
-    if (!userName || prevUsername === userName) return false
-    setLoading(true)
-    setError("")
+    if (!userName || prevUsername === userName) return false;
+    setLoading(true);
+    setError("");
     try {
-      const user = await GithubService.getJoiningDateOfUser(userName)
+      const user = await GithubService.getJoiningDateOfUser(userName);
       setData({
         name: user.name,
         date: moment(user.created_at).format("DD MMMM YYYY"),
         login: user.login,
         avatar: user.avatar_url
-      })
-      setUserName("")
+      });
+      setUserName("");
     } catch (err) {
-      setData({ name: "", date: "", login: "" })
+      setData({ name: "", date: "", login: "" });
       /**
        * @code err.message.split(":")[1] - Formatted message.
        * @description: Error constructor returns response of pattern Error: ERR_MESSAGE
        */
-      setError(err.message.split(":")[1])
+      setError(err.message.split(":")[1]);
     } finally {
-      setLoading(false)
+      setLoading(false);
     }
-  }
+  };
 
   const renderProfileLink = () => {
     return (
@@ -61,8 +61,8 @@ const App = () => {
       >
         {name || login}
       </a>
-    )
-  }
+    );
+  };
 
   return (
     <div className="container">
@@ -104,6 +104,11 @@ const App = () => {
               >
                 <TwitterIcon />
               </SocialHandler>
+              <SocialHandler
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.octocatday.com`}
+              >
+                <LinkedinIcon />
+              </SocialHandler>
             </div>
           </>
         ) : error ? (
@@ -111,7 +116,7 @@ const App = () => {
         ) : null}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
