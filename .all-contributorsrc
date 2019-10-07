@@ -77,7 +77,16 @@
       "contributions": [
         "doc"
       ]
-     }
+     },
+    {
+      "login": "rehan-sattar",
+      "name": "Rehan Sattar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/26999472?v=4",
+      "profile": "https://rehan-sattar.github.io",
+      "contributions": [
+        "code"
+      ]
+    }
   ],
   "contributorsPerLine": 7,
   "projectName": "octocat-day",
