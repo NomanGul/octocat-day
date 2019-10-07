@@ -28,6 +28,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://mohammad-quanit.github.io/"><img src="https://avatars3.githubusercontent.com/u/32056694?v=4" width="100px;" alt="mquanit"/><br /><sub><b>mquanit</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/commits?author=Mohammad-Quanit" title="Code">💻</a></td>
     <td align="center"><a href="https://abhisheksatre.com"><img src="https://avatars2.githubusercontent.com/u/7577351?v=4" width="100px;" alt="Abhishek Satre"/><br /><sub><b>Abhishek Satre</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/commits?author=abhisheksatre" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/Sn0wB"><img src="https://avatars0.githubusercontent.com/u/51188711?v=4" width="100px;" alt="Sn0wB"/><br /><sub><b>Sn0wB</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/issues?q=author%3ASn0wB" title="Bug reports">🐛</a></td>
+    <td align="center"><a href="http://adeelzafar.dev"><img src="https://avatars0.githubusercontent.com/u/36811908?v=4" width="100px;" alt="Adeel Zafar"/><br /><sub><b>Adeel Zafar</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/commits?author=iadeelzafar" title="Documentation">📖</a></td>
   </tr>
 </table>
 
