@@ -19,7 +19,7 @@
       "login": "MuhaddiMu",
       "name": "Muhammad Muhaddis",
       "avatar_url": "https://avatars3.githubusercontent.com/u/26611847?v=4",
-      "profile": "http://Http://www.Muhaddis.Info",
+      "profile": "http://www.Muhaddis.Info",
       "contributions": [
         "code"
       ]
@@ -58,6 +58,33 @@
       "profile": "https://github.com/Sn0wB",
       "contributions": [
         "bug"
+      ]
+    },
+    {
+      "login": "iadeelzafar",
+      "name": "Adeel Zafar",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/36811908?v=4",
+      "profile": "http://adeelzafar.dev",
+      "contributions": [
+        "doc"
+      ]
+    },
+    {
+      "login": "Mudassar045",
+      "name": "Mudassar Ali",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/24487349?v=4",
+      "profile": "http://thefactsbook.com",
+      "contributions": [
+        "doc"
+      ]
+     },
+    {
+      "login": "rehan-sattar",
+      "name": "Rehan Sattar",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/26999472?v=4",
+      "profile": "https://rehan-sattar.github.io",
+      "contributions": [
+        "code"
       ]
     }
   ],
