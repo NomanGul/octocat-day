@@ -5,7 +5,7 @@ import { Spin } from "antd"
 import { width, height } from "./utils/Dimensions"
 import { usePrevious } from "./utils/usePrevious"
 import { FaceBookIcon, TwitterIcon } from "./assets/svgs"
-import HomeShowcase from "./components/HomeShocase"
+import HomeShowcase from "./components/HomeShowcase"
 import SearchForm from "./components/SearchForm"
 import SocialHandler from "./components/SocialHandler"
 import ErrorMessage from "./components/ErrorMessage"
@@ -14,6 +14,7 @@ import GithubService from "./services/Github"
 import "./App.css"
 
 const ICON_WIDTH = 30, ICON_HEIGHT = 30
+
 const App = () => {
   const [{ name, date, login, avatar }, setData] = useState({
     name: "",
