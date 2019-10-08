@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SvgWrapper = ({ width = 24, height = 24, viewBox = '0 0 24 24', style={}, children }) => {
+const SvgWrapper = ({ width = 24, height = 24, viewBox = '0 0 24 24', style={}, children, ...props }) => {
   return (
     <svg
       style={style}
@@ -8,6 +8,7 @@ const SvgWrapper = ({ width = 24, height = 24, viewBox = '0 0 24 24', style={}, 
       width={width}
       height={height}
       viewBox={viewBox}
+      {...props}
     >{children}</svg>
   );
 }
