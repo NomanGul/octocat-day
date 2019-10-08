@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const SvgWrapper = ({ width = 24, height = 24, viewBox = '0 0 24 24', style={}, children }) => {
   return (
@@ -12,4 +12,4 @@ const SvgWrapper = ({ width = 24, height = 24, viewBox = '0 0 24 24', style={}, 
   );
 }
 
-export default SvgWrapper;
+export default SvgWrapper

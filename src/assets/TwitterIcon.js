@@ -1,5 +1,5 @@
-import React from 'react';
-import SvgWrapper from './SvgWrapper';
+import React from 'react'
+import SvgWrapper from './SvgWrapper'
 
 const TwitterIcon = ({ fill = '#00acee', ...props }) => {
   return (
@@ -12,4 +12,4 @@ const TwitterIcon = ({ fill = '#00acee', ...props }) => {
   );
 }
 
-export default TwitterIcon;
+export default TwitterIcon

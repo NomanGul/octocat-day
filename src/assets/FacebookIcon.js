@@ -1,5 +1,5 @@
-import React from 'react';
-import SvgWrapper from './SvgWrapper';
+import React from 'react'
+import SvgWrapper from './SvgWrapper'
 
 const FacebookIcon = ({ fill = '#3b5998', ...props }) => {
   return (
@@ -12,4 +12,4 @@ const FacebookIcon = ({ fill = '#3b5998', ...props }) => {
   );
 }
 
-export default FacebookIcon;
+export default FacebookIcon
