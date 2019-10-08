@@ -77,12 +77,21 @@
       "contributions": [
         "doc"
       ]
-     },
+    },
     {
       "login": "rehan-sattar",
       "name": "Rehan Sattar",
       "avatar_url": "https://avatars1.githubusercontent.com/u/26999472?v=4",
       "profile": "https://rehan-sattar.github.io",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "MOHAMMADArsalan",
+      "name": "Mohammad Arsalan",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/14179110?v=4",
+      "profile": "https://github.com/MOHAMMADArsalan",
       "contributions": [
         "code"
       ]
