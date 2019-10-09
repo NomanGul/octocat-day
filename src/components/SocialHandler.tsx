@@ -1,6 +1,11 @@
 import React from "react"
 
-const SocialHandler = ({ children, href }) => {
+type SocialHandlerStruct = {
+  href: string
+  children: any
+}
+
+const SocialHandler = ({ children, href }: SocialHandlerStruct) => {
   return (
     <a
       style={{ marginRight: 10 }}

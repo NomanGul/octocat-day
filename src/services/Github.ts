@@ -3,7 +3,7 @@
  * @description A central service for all of the operations related to the Github Api.
  */
 export default class GithubService {
-  static getJoiningDateOfUser = async userName => {
+  static getJoiningDateOfUser = async (userName: string) => {
     try {
       return await fetch(`https://api.github.com/users/${userName}`, {
         headers: {

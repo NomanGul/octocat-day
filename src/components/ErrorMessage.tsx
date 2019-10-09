@@ -2,7 +2,12 @@ import React from "react"
 import { Typography } from "antd"
 
 const { Paragraph } = Typography
-const ErrorMessage = ({ errMessage }) => (
+
+type ErrorStruct = {
+  errMessage: string
+}
+
+const ErrorMessage = ({ errMessage }: ErrorStruct) => (
   <Paragraph className="paragraph" type="secondary">
     {errMessage}
     <span role="img" aria-label="wrong">

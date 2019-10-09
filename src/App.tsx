@@ -11,18 +11,19 @@ import SocialHandler from "./components/SocialHandler"
 import ErrorMessage from "./components/ErrorMessage"
 import Profile from "./components/Profile"
 import GithubService from "./services/Github"
-import "./App.css"
+import { GithubUser } from "./types/app" 
+import "./styles/App.css"
 
 const ICON_WIDTH = 30,
   ICON_HEIGHT = 30
 
 const App = () => {
-  const [{ name, date, login, avatar }, setData] = useState({
+  const [{ name, date, login, avatar_url }, setData] = useState({
     name: "",
     date: "",
     login: "",
-    avatar: ""
-  })
+    avatar_url: ""
+  } as GithubUser)
   const [userName, setUserName] = useState("")
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState("")
@@ -40,11 +41,11 @@ const App = () => {
         name: user.name,
         date: moment(user.created_at).format("DD MMMM YYYY"),
         login: user.login,
-        avatar: user.avatar_url
+        avatar_url: user.avatar_url
       })
       setUserName("")
     } catch (err) {
-      setData({ name: "", date: "", login: "" })
+      setData({ name: "", date: "", login: "" } as GithubUser)
       /**
        * @code err.message.split(":")[1] - Formatted message.
        * @description: Error constructor returns response of pattern Error: ERR_MESSAGE
@@ -60,8 +61,7 @@ const App = () => {
       <a
         href={`https://github.com/${login}`}
         rel="noopener noreferrer"
-        target="_blank"
-      >
+        target="_blank">
         {name || login}
       </a>
     )
@@ -75,13 +75,14 @@ const App = () => {
           width={width}
           height={height}
           numberOfPieces={300}
+          canvasRef={React.createRef()}
         />
       ) : null}
 
       <div className="row column">
         <HomeShowcase />
         <SearchForm
-          handleChange={e => setUserName(e.target.value)}
+          handleChange={ (e: any) => setUserName(e.target.value)}
           value={userName}
           searchHandler={getJoiningDate}
         />
@@ -93,7 +94,7 @@ const App = () => {
           <>
             <Profile
               renderProfileLink={renderProfileLink}
-              avatar={avatar}
+              avatar_url={avatar_url}
               date={date}
             />
             <div>
