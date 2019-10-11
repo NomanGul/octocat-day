@@ -18,11 +18,11 @@ const ICON_WIDTH = 30,
   ICON_HEIGHT = 30
 
 const App = () => {
-  const [{ name, date, login, avatar_url }, setData] = useState({
+  const [{ name, date, login, avatarUrl }, setData] = useState({
     name: "",
     date: "",
     login: "",
-    avatar_url: ""
+    avatarUrl: ""
   } as GithubUser)
   const [userName, setUserName] = useState("")
   const [loading, setLoading] = useState(false)
@@ -41,7 +41,7 @@ const App = () => {
         name: user.name,
         date: moment(user.created_at).format("DD MMMM YYYY"),
         login: user.login,
-        avatar_url: user.avatar_url
+        avatarUrl: user.avatar_url
       })
       setUserName("")
     } catch (err) {
@@ -94,7 +94,7 @@ const App = () => {
           <>
             <Profile
               renderProfileLink={renderProfileLink}
-              avatar_url={avatar_url}
+              avatarUrl={avatarUrl}
               date={date}
             />
             <div>

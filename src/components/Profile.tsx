@@ -3,15 +3,15 @@ import { Typography } from "antd"
 
 type ProfileStruct = {
   date: string
-  avatar_url: string
+  avatarUrl: string
   renderProfileLink: Function
 }
 
 const { Paragraph, Text } = Typography
-const Profile = ({ renderProfileLink, avatar_url, date }: ProfileStruct) => (
+const Profile = ({ renderProfileLink, avatarUrl, date }: ProfileStruct) => (
   <>
     <Paragraph className="paragraph" type="secondary">
-      <img className="avatar-style" src={avatar_url} alt="avatar" />
+      <img className="avatar-style" src={avatarUrl} alt="avatar" />
       {renderProfileLink()} joined GitHub on
     </Paragraph>
     <Text code className="date">
