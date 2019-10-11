@@ -32,7 +32,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
   </tr>
   <tr>
     <td align="center"><a href="http://thefactsbook.com"><img src="https://avatars0.githubusercontent.com/u/24487349?v=4" width="100px;" alt="Mudassar Ali"/><br /><sub><b>Mudassar Ali</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/commits?author=Mudassar045" title="Documentation">📖</a></td>
-    <td align="center"><a href="https://rehan-sattar.github.io"><img src="https://avatars1.githubusercontent.com/u/26999472?v=4" width="100px;" alt="Rehan Sattar"/><br /><sub><b>Rehan Sattar</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/commits?author=rehan-sattar" title="Code">💻</a></td>
+    <td align="center"><a href="https://rehan-sattar.github.io"><img src="https://avatars1.githubusercontent.com/u/26999472?v=4" width="100px;" alt="Rehan Sattar"/><br /><sub><b>Rehan Sattar</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/commits?author=rehan-sattar" title="Code">💻</a> <a href="#review-rehan-sattar" title="Reviewed Pull Requests">👀</a></td>
     <td align="center"><a href="https://github.com/MOHAMMADArsalan"><img src="https://avatars0.githubusercontent.com/u/14179110?v=4" width="100px;" alt="Mohammad Arsalan"/><br /><sub><b>Mohammad Arsalan</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/commits?author=MOHAMMADArsalan" title="Code">💻</a></td>
   </tr>
 </table>
