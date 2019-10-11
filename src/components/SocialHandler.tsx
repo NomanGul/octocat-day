@@ -2,7 +2,7 @@ import React from "react"
 
 type SocialHandlerStruct = {
   href: string
-  children: any
+  children: React.ReactNode
 }
 
 const SocialHandler = ({ children, href }: SocialHandlerStruct) => {

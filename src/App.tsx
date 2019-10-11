@@ -82,7 +82,7 @@ const App = () => {
       <div className="row column">
         <HomeShowcase />
         <SearchForm
-          handleChange={ (e: any) => setUserName(e.target.value)}
+          handleChange={ (e: React.ChangeEvent<HTMLInputElement>) => setUserName(e.target.value)}
           value={userName}
           searchHandler={getJoiningDate}
         />

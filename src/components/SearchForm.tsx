@@ -3,8 +3,8 @@ import { Input } from "antd"
 
 type SearchStruct = {
   value: string
-  handleChange: any
-  searchHandler: any
+  handleChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
+  searchHandler: (value: string, e?: React.ChangeEvent<HTMLInputElement> | React.MouseEvent<HTMLElement> | React.KeyboardEvent<HTMLInputElement>) => void;
 }
 
 const { Search } = Input
