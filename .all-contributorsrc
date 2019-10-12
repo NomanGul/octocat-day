@@ -105,6 +105,15 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "smkamranqadri",
+      "name": "Muhammad Kamran",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13115396?v=4",
+      "profile": "https://kamranqadri.me",
+      "contributions": [
+        "infra"
+      ]
     }
   ],
   "contributorsPerLine": 7,
