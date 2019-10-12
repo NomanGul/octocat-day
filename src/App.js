@@ -4,7 +4,7 @@ import Confetti from "react-confetti"
 import { Spin } from "antd"
 import { width, height } from "./utils/Dimensions"
 import { usePrevious } from "./utils/usePrevious"
-import { FaceBookIcon, TwitterIcon } from "./assets/svgs"
+import { FaceBookIcon, TwitterIcon, LinkedinIcon } from "./assets/svgs"
 import HomeShowcase from "./components/HomeShowcase"
 import SearchForm from "./components/SearchForm"
 import SocialHandler from "./components/SocialHandler"
@@ -111,6 +111,15 @@ const App = () => {
               >
                 <TwitterIcon
                   className="twitterIcon"
+                  width={ICON_WIDTH}
+                  height={ICON_HEIGHT}
+                />
+              </SocialHandler>
+              <SocialHandler
+                href={`https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.octocatday.com`}
+              >
+                <LinkedinIcon
+                  className="linkedinIcon"
                   width={ICON_WIDTH}
                   height={ICON_HEIGHT}
                 />

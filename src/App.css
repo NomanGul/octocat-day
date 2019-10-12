@@ -80,6 +80,13 @@
 .facebookIcon {
   margin-top: 20px;
 }
+
 .twitterIcon {
   margin-top: 5px;
+}
+
+.linkedinIcon {
+  margin-top:5px;
+  background-color: #2867B2;
+  border-radius: 20px;
 }
