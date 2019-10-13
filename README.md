@@ -36,6 +36,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
     <td align="center"><a href="https://github.com/MOHAMMADArsalan"><img src="https://avatars0.githubusercontent.com/u/14179110?v=4" width="100px;" alt="Mohammad Arsalan"/><br /><sub><b>Mohammad Arsalan</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/commits?author=MOHAMMADArsalan" title="Code">💻</a></td>
     <td align="center"><a href="https://viveksharmaui.js.org"><img src="https://avatars1.githubusercontent.com/u/28563357?v=4" width="100px;" alt="Vivek Anand Sharma"/><br /><sub><b>Vivek Anand Sharma</b></sub></a><br /><a href="https://github.com/NomanGul/octocat-day/commits?author=viveksharmaui" title="Code">💻</a></td>
     <td align="center"><a href="https://kamranqadri.me"><img src="https://avatars2.githubusercontent.com/u/13115396?v=4" width="100px;" alt="Muhammad Kamran"/><br /><sub><b>Muhammad Kamran</b></sub></a><br /><a href="#infra-smkamranqadri" title="Infrastructure (Hosting, Build-Tools, etc)">🚇</a></td>
+    <td align="center"><a href="https://aliasgharkarani.github.io/alikarani.com/"><img src="https://avatars2.githubusercontent.com/u/13115396?v=4" width="100px;" alt="Ali Asghar Karani"/><br /><sub><b>Ali Karani</b></sub></a><br /><a href="https://github.com/aliasgharkarani/" title="Code">💻</a></td>
   </tr>
 </table>
 
