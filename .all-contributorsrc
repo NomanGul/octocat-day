@@ -114,6 +114,15 @@
       "contributions": [
         "infra"
       ]
+    },
+    {
+      "login": "umershaikh97",
+      "name": "Umer Shaikh",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26284894?v=4",
+      "profile": "https://geeksofkolachi.com/",
+      "contributions": [
+        "design"
+      ]
     }
   ],
   "contributorsPerLine": 7,
