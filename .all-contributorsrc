@@ -96,6 +96,34 @@
       "contributions": [
         "code"
       ]
+    },
+    {
+      "login": "viveksharmaui",
+      "name": "Vivek Anand Sharma",
+      "avatar_url": "https://avatars1.githubusercontent.com/u/28563357?v=4",
+      "profile": "https://viveksharmaui.js.org",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "smkamranqadri",
+      "name": "Muhammad Kamran",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/13115396?v=4",
+      "profile": "https://kamranqadri.me",
+      "contributions": [
+        "infra"
+      ]
+    },
+    {
+      "login": "umershaikh97",
+      "name": "Umer Shaikh",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/26284894?v=4",
+      "profile": "https://geeksofkolachi.com/",
+      "contributions": [
+        "design",
+        "code"
+      ]
     }
   ],
   "contributorsPerLine": 7,
