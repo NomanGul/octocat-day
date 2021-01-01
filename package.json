@@ -4,12 +4,12 @@
   "private": true,
   "homepage": "https://www.octocatday.com/",
   "dependencies": {
-    "antd": "^3.26.15",
-    "moment": "^2.24.0",
-    "react": "^16.13.1",
-    "react-confetti": "^4.0.1",
-    "react-dom": "^16.13.1",
-    "react-scripts": "^3.4.1"
+    "antd": "^4.9.4",
+    "moment": "^2.29.1",
+    "react": "^17.0.1",
+    "react-confetti": "^6.0.0",
+    "react-dom": "^17.0.1",
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",
