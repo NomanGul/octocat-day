@@ -5,7 +5,7 @@
   "homepage": "https://www.octocatday.com/",
   "dependencies": {
     "antd": "^4.9.4",
-    "moment": "^2.29.1",
+    "moment": "^2.29.2",
     "react": "^17.0.1",
     "react-confetti": "^6.0.0",
     "react-dom": "^17.0.1",
