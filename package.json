@@ -2,7 +2,7 @@
   "name": "octocat-day",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.octocatday.com/",
+  "homepage": "https://nomangul.github.io/octocat-day",
   "dependencies": {
     "antd": "^4.21.3",
     "moment": "^2.29.3",
