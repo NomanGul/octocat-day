@@ -1,4 +1,4 @@
-<h1 align="center"><a href="https://www.octocatday.com">Octocat Day :octocat:</a></h1>
+<h1 align="center"><a href="https://nomangul.github.io/octocat-day/">Octocat Day :octocat:</a></h1>
 
 <p align="center"><b>Believe me, It'll give you your open-source birthday date :grin:</b></p>
 
